@@ -1,0 +1,21 @@
+/* setting */
+@import "setting.css";
+/* end setting */
+/* topline */
+@import "topline.css";
+/* end topline */
+/* menu */
+@import "menu.css";
+/* end menu */
+/* about */
+@import "about.css";
+/* end about */
+/* Doctors */
+@import "Doctors.css";
+/* end Doctors */
+/* parallax */
+@import "parallax.css";
+/* end parallax */
+/* footer */
+@import "footer.css";
+/* end footer */

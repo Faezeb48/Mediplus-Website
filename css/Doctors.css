@@ -1,0 +1,361 @@
+section.Doctors {
+    width: 100%;
+    position: relative;
+    top: 670px;
+}
+
+section.Doctors>div.firstpart {
+    position: relative;
+    margin-top: 30px;
+    width: 50%;
+    height: 200px;
+    top: calc(50% - 200px/2);
+    left: calc(50% - 50%/2);
+}
+
+section.Doctors>div.firstpart>h1 {
+    font-size: 44px;
+    width: 800px;
+    font-family: Poppins-Black;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.Doctors>div.firstpart>p {
+    width: 800px;
+    line-height: 35px;
+    font-size: 18px;
+    font-family: Poppins-Light;
+    text-align: center;
+    color: #A2A2A2;
+}
+
+section.Doctors>div.DoctorsImages {
+    width: 100%;
+    position: relative;
+    top: 70px;
+
+}
+
+section.Doctors>div.DoctorsImages>div.doctor1{
+    width: 25%;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor1>img{
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 500px;
+    opacity: 0.5;
+    transition: all 300ms linear 500ms;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor2>img {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 25%;
+    height: 500px;
+    opacity: 0.5;
+    transition: all 300ms linear 500ms;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor3>img {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 25%;
+    height: 500px;
+    opacity: 0.5;
+    transition: all 300ms linear 500ms;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor4>img {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 75%;
+    width: 25%;
+    height: 500px;
+    opacity: 0.5;
+    transition: all 300ms linear 500ms;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor1>h2 {
+    position: absolute;
+    top: 510px;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Poppins-Light;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor2>h2 {
+    position: absolute;
+    top: 510px;
+    left: 25%;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Poppins-Light;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor3>h2 {
+    position: absolute;
+    top: 510px;
+    left: 50%;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Poppins-Light;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor4>h2 {
+    position: absolute;
+    top: 510px;
+    left: 75%;
+    width: 25%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Poppins-Light;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor1>h4 {
+    width: 25%;
+    position: absolute;
+    top: 550px;
+    text-align: center;
+    color: #207DFF;
+    font-size: 12px;
+    font-family: Poppins-Light;
+    letter-spacing: 1.5px;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor2>h4 {
+    width: 25%;
+    position: absolute;
+    top: 550px;
+    left: 25%;
+    text-align: center;
+    color: #207DFF;
+    font-size: 12px;
+    font-family: Poppins-Light;
+    letter-spacing: 1.5px;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor3>h4 {
+    width: 25%;
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    text-align: center;
+    color: #207DFF;
+    font-size: 12px;
+    font-family: Poppins-Light;
+    letter-spacing: 1.5px;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor4>h4 {
+    width: 25%;
+    position: absolute;
+    top: 550px;
+    left: 75%;
+    text-align: center;
+    color: #207DFF;
+    font-size: 12px;
+    font-family: Poppins-Light;
+    letter-spacing: 1.5px;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor1>p {
+    position: absolute;
+    top: 580px;
+    width: 25%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #99A6C4;
+    font-size: 16px;
+    font-family: Poppins-Light;
+    font-weight: bold;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor2>p {
+    position: absolute;
+    top: 580px;
+    left: 25%;
+    width: 25%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #99A6C4;
+    font-size: 16px;
+    font-family: Poppins-Light;
+    font-weight: bold;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor3>p {
+    position: absolute;
+    top: 580px;
+    left: 50%;
+    width: 25%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #99A6C4;
+    font-size: 16px;
+    font-family: Poppins-Light;
+    font-weight: bold;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor4>p {
+    position: absolute;
+    top: 580px;
+    left: 75%;
+    width: 25%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: #99A6C4;
+    font-size: 16px;
+    font-family: Poppins-Light;
+    font-weight: bold;
+}
+
+/* section.Doctors>div.DoctorsImages>div.Doctor1>div.icon>span.fa-twitter{
+    display: inline-block;
+    position: absolute;
+    top: 505px;
+    left: 50px;
+    color: #207DFF;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #207DFF;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor1>span.fa-facebook {
+    display: inline-block;
+    position: absolute;
+    top: 505px;
+    left: 100px;
+    color: rgb(73, 107, 73);
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor1>span.fa-google {
+    display: inline-block;
+    position: absolute;
+    top: 505px;
+    left: 150px;
+    color: red;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+section.Doctors>div.DoctorsImages>div.Doctor1>span.fa-instagram {
+    display: inline-block;
+    position: absolute;
+    top: 505px;
+    left: 200px;
+    color: orangered;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+} */
+section.Doctors>div.DoctorsImages>div.Doctor1>img:hover, section.Doctors>div.DoctorsImages>div.Doctor2>img:hover,section.Doctors>div.DoctorsImages>div.Doctor3>img:hover, section.Doctors>div.DoctorsImages>div.Doctor4>img:hover{
+    opacity: 1;
+    box-shadow: 5px 5px 5px rgb(85, 85, 124);
+}
+section.Doctors>div.DoctorsImages>div.Doctor1>a{
+    display: block;
+    width: 150px;
+    height: 75px;
+    background-color: #207DFF;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 75px;
+    position: absolute;
+    top: 650px;
+    left:75px;
+    text-decoration: none;
+}
+section.Doctors>div.DoctorsImages>div.Doctor2>a{
+    display: block;
+    width: 150px;
+    height: 75px;
+    background-color: #207DFF;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 75px;
+    position: absolute;
+    top: 650px;
+    left:calc(25% + 75px);
+    text-decoration: none;
+}
+section.Doctors>div.DoctorsImages>div.Doctor3>a{
+    display: block;
+    width: 150px;
+    height: 75px;
+    background-color: #207DFF;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 75px;
+    position: absolute;
+    top: 650px;
+    left:calc(50% + 75px);
+    text-decoration: none;
+}
+section.Doctors>div.DoctorsImages>div.Doctor4>a{
+    display: block;
+    width: 150px;
+    height: 75px;
+    background-color: #207DFF;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 75px;
+    position: absolute;
+    top: 650px;
+    left:calc(75% + 75px);
+    text-decoration: none;
+}

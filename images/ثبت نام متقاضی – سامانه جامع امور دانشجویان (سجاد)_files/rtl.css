@@ -1,0 +1,804 @@
+@font-face {
+    font-family: 'BYekan';
+
+    src:url("fonts/BYekan.ttf") format("truetype") ,
+    url('fonts/BYekan.eot?#') format('eot'),
+    url('fonts/byekan.otf') format('opentype'),
+    url(data:application/octet-stream;base64,) format('woff'),
+    url('fonts/byekan.svg') format('svg');
+
+    font-weight:normal;
+}
+body, p, div, a, ul, span {
+    font-family: 'BYekan', Tahoma, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+
+}
+blockquote‌ {
+    font-size: 13px;
+    font-family: 'BYekan', Tahoma, Helvetica, sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+
+}
+
+body, p , .av-masonry-entry .av-masonry-entry-title + .av-masonry-entry-content{font-family: Tahoma !important }
+
+.breadcrumb-trail .trail-before, .breadcrumb-trail .trail-end, .breadcrumb-trail .sep, .breadcrumb-trail a{
+	float: right;
+}
+.title_container .breadcrumb {left: 0; right: auto;}
+
+body {text-align: right;}
+
+#top .avia-gallery .avia-gallery-thumb a{ float:right; }
+
+
+
+
+#top select, #top .ajax_form .select, #top .entry-content select, #top .mobileMenu{
+
+ background-position: center left;
+}
+
+#top .ajax_form .captcha{padding-right: 65px; padding-left: 0;}
+
+
+.value_verifier_label {
+left: 10px;
+direction:ltr;
+}
+
+#top .ajax_form input[type="checkbox"] {
+float: right;
+margin-left: 8px; margin-right: auto;
+}
+
+body .av-special-heading > * {direction: rtl; text-align: center;}
+
+
+.avia-button.avia-size-small .avia_button_icon{ right: -2px; left: auto;}
+
+
+div .avia_message_box .avia_message_box_title{
+
+right:0;
+left: auto;
+
+}
+
+.avia_message_box_icon{ right: -0.5em; left: auto;}
+
+
+.tabcontainer .tab_icon{
+margin-left: 7px;
+margin-right: auto;
+}
+
+.tab_titles{
+float:right;
+}
+
+.js_active .tab{
+
+margin:0 0 0 -1px;
+float: right;
+
+}
+
+.js_active .top_tab .tab{
+border-bottom: none;
+padding:12px 13px 14px 15px
+}
+
+
+
+.js_active .toggler {
+
+padding: 9px 35px 9px 3px;
+position: relative;
+
+}
+
+.toggle_icon{
+
+right:10px;
+left: auto;
+}
+
+
+	ul.disc, .entry-content ul { list-style: none; }
+
+		.entry-content li {  margin-right: 1em; margin-left: auto;}
+
+
+.avia_inner_shortcode img {margin-left: 10px; margin-right: auto;}
+
+.av_promobox .avia-button{
+	direction: rtl;
+left: 30px;
+right: auto;
+
+}
+
+.avia-promocontent{
+margin-left:200px;
+margin-right: auto;
+
+}
+
+
+.avia-button .avia_button_icon{right: -0.3em; left: auto;}
+.avia-button.avia-size-small .avia_button_icon{ right: -2px; left: auto;}
+
+.news-thumb{
+margin-left:9px;
+margin-right: auto;
+float:right;
+
+}
+
+.avia-post-next .entry-info{ margin:0 8px 0 20px;}
+.avia-post-prev .entry-info{ margin:0 8px 0 8px;}
+
+.avia-post-next.with-image {text-align: left;}
+
+
+.avia_layout_column, .avia_layout_section, .avia-highlight {float: right;}
+.avia-first-col {clear: right;}
+
+
+body .unit.alpha,
+body .units.alpha,
+body div .first {
+  margin-right: 0;
+  margin-left: auto;
+  clear: right;
+}
+
+
+body div .first,
+body div .no_margin {
+  margin-right: 0;
+  margin-left: auto;
+}
+div .flex_column {
+  float: right;
+}
+div .av_one_fifth {
+  margin-right: 6%;
+  margin-left: auto;
+}
+div .av_one_fourth {
+  margin-right: 6%;
+  margin-left: auto;}
+
+
+div .av_one_third {
+  margin-right: 6%;
+  margin-left: auto;}
+
+div .av_two_fifth {
+  margin-right: 6%;
+  margin-left: auto;}
+
+div .av_one_half {
+  margin-right: 6%;
+  margin-left: auto;}
+div .av_three_fifth {
+  margin-right: 6%;
+  margin-left: auto;}
+div .av_two_third {
+  margin-right: 6%;
+  margin-left: auto;}
+div .av_three_fourth {
+  margin-right: 6%;
+  margin-left: auto;}
+div .av_four_fifth {
+  margin-right: 6%;
+  margin-left: auto;}
+div .av_one_sixth {
+  margin-right: 6%;
+  margin-left: auto;}
+div .av_one_seventh {
+  margin-right: 6%;
+  margin-left: auto;}
+div .av_one_eighth {
+  margin-right: 6%;
+  margin-left: auto;}
+div .av_one_nineth {
+  margin-right: 6%;
+  margin-left: auto;}
+div .av_one_tenth {
+  margin-right: 6%;
+  margin-left: auto;}
+/* Columns for better content separation (no margin)
+================================================== */
+
+body div .no_margin {
+  margin-right: 0;
+    margin-left: auto;
+}
+
+
+
+.main_menu .menu ul {
+display: none;
+margin-right:0;
+margin-left: auto;
+right:0;
+left: auto;
+}
+
+#top .main_menu .menu li ul ul {
+right:207px;
+left: auto;
+top:0px;
+margin:0;
+border-top-style: solid;
+border-top-width: 1px;
+}
+#top .main_menu .menu li{
+float:right;
+}
+
+#top .main_menu .menu>li:last-child>a{
+padding-left:0;
+padding-right: 0;
+}
+
+#top .main_menu .menu li ul a{
+ text-align: right; }
+
+
+
+.sort_width_container, #js_sort_items{
+text-align: right;
+}
+
+
+
+#js_sort_items a{
+float:right;
+}
+
+#js_sort_items .text-sep{
+float:right;
+padding:0 6px;
+}
+.team-member-job-title, .team-member-name {text-align: center;}
+
+tr:first-child th, tr:first-child td {text-align: right;}
+
+
+.template-blog .blog-meta{
+float:right;
+margin-left:50px;
+margin-right: 20px;
+}
+
+.multi-big .post_author_timeline , .single-small .post_author_timeline {
+position: absolute;
+top: 0;
+right: 60px;
+left: auto;
+width: 1px;
+height: 100%;
+border-right-width:1px;
+border-right-style: dashed;
+}
+
+
+.gravatar{
+float: right;
+}
+
+.commentlist ul {
+border-right-style: dashed;
+border-right-width: 1px;
+border-left-style: none;
+border-left-width: 0;
+}
+
+
+
+
+.comment_content{
+margin:0 0 0 85px;
+padding:0 35px 15px 0;
+}
+
+#top .commentlist ul{
+margin: 0 74px 0 0;
+}
+
+#top .commentlist .children ul{
+margin: 0 47px 0 0;
+}
+
+.children .comment_content {
+margin: 0 28px 0 0;
+}
+
+.children .gravatar{
+right:-24px;
+left: auto;
+}
+
+/*
+.prev-slide::before{
+content: "\E766";
+
+}
+.next-slide::before{
+content: "\E765";
+
+}
+*/
+#top .avia-slideshow-arrows a.prev-slide  {left:0;}
+#socket .sub_menu_socket li:last-child{padding-left:10px; padding-right: 0;}
+#socket .copyright {width: 30%; text-align: left;}
+
+.js_active .tab {font-size: 12px;}
+
+
+ /* Fonts */
+
+ .template-page .entry-content h1, .template-page .entry-content h2, .template-page .template-blog .entry-content h1, .template-page .template-blog .entry-content h2, .widgettitle, .avia_socialcount a strong, .miniheading, .author_name, #reply-title, #top .logged-in-as, .dynamic-column-title, #comments span, .minitext, .form-allowed-tags, #reply-title small, #commentform label, .current_page_item>a, .current-menu-item>a, .main_menu ul:first-child > li.current-menu-item > a, .main_menu ul:first-child > li.current_page_item > a, .current_page_item>a,  .current-menu-item>a, #top h1 a, #top h2 a, #top h3 a, #top h4 a, #top h5 a, #top h6 a, th, strong, b, h1, h2, h3, h4, h5, h6, .iconbox .iconbox_content .iconbox_content_title, body div .avia-button, .avia_message_box_content p, .news-headline, #top label,.main_menu ul:first-child > li > a, .ajax_search_title, #socket .sub_menu_socket li, div .main_color .tabcontainer .active_tab_content, div .main_color .tabcontainer .active_tab{ font-weight: normal; letter-spacing: normal;}
+
+
+
+
+
+.cart_dropdown.visible_cart, .cart_dropdown.visible_cart {font-size: 11px; font-family: tahoma}
+div.product .woocommerce-tabs ul.tabs li {float: right;}
+#top .woocommerce-tabs .tabs li a {margin: 0}
+div .products .product {float: right; margin-left:auto; margin: 0 0 1% 1%; margin-right: 0;}
+table.shop_table {text-align: right;}
+.shop_columns_3 .products .product {margin: 0 0 1% 1%}
+#top #payment ul.payment_methods li {text-align: right;}
+#top .products .product.last, #top #main .products .product.last {margin-left: 0; margin-right: auto;}
+.sort-param > li > span { padding: 0px 10px 0px 40px ; background: transparent url('images/arrow_down.png') left center no-repeat}
+.sort-param > li > span, .sort-param > li > a {background-position: top right}
+
+.avia-content-slider-active .slide-entry-wrap, #top .template-search.content .entry-content, .entry-content li {font-family: Tahoma}
+
+#top .menu-item-search-dropdown > a, #searchform #searchsubmit, .ajax_search_image, .iconfont{
+font-family: 'entypo-fontello' !important;
+font-size: 17px;
+}
+
+.dropdown_widget ul.cart_list li a img
+{float: left;
+margin: 0 10px 0 0px;}
+.cart_dropdown .dropdown_widget .widget_shopping_cart_content
+{text-align: right;}
+
+
+body .av-special-heading h1, body .av-special-heading h2, body .av-special-heading h3, body .av-special-heading h4, body .av-special-heading h5, body .av-special-heading h6 {float: right;}
+
+.special-heading-inner-border {margin-right: 15px; margin-left: auto;}
+
+.cart-collaterals .cart_totals {float: right;}
+.cart-collaterals .shipping_calculator {float: right;}
+th {text-align: right;}
+.cart-collaterals h2 {text-align: right;}
+
+.iconbox_icon {float: right; margin: 2px 0px 0 10px}
+.ajax_form .form_element_half {float: right; margin-left:0.5%; margin-right: auto;}
+div.pp_default .pp_expand, div.pp_default .pp_next, a.pp_previous, div.pp_default .pp_close, div.pp_default .pp_nav .pp_play, div.pp_default .pp_nav .pp_pause, div.pp_default a.pp_arrow_next, div.pp_default a.pp_arrow_previous, div.pp_default a.pp_arrow_next, div.pp_default .pp_contract {overflow: hidden;text-indent: 10000px }
+
+.avia-progress-bar div.progress .bar-outer, .avia-progress-bar div.progress .bar {right: 0; left: auto;}
+.avia-progress-bar .progressbar-title-wrap {right: 3px; left: auto; bottom: 2px;}
+.progressbar-icon {float: right; margin-left: 5px; margin-right: auto;}
+
+.woocommerce-page .button {min-width: 106px; font-size:12px;}
+
+.avia-testimonial-image {float: right; margin: 0 0px 0 10px}
+.avia-slider-testimonials .avia-testimonial-arrow-wrap {right: 14px; left: auto;}
+.sort-param ul li {margin-right: 10px; margin-left: auto;}
+.sort-param ul a {padding-right: 6px; padding-left: 0;}
+.avia-bullet {right: -3px; left: auto; border-right: 3px solid green; border-left: none;}
+#top #review_form #respond .comment-form-rating {left: 15px; right: auto;}
+#top #commentform .comment-form-rating label, #top.logged-in div #commentform .comment-form-comment label {right: 20px;}
+/*
+#commentform label {right: 0; left: auto;}
+/*
+#top input[type="text"] {margin-right: 35px;}
+*/
+div #reviews #comments ol.commentlist li .avatar {float: right; right: 0; left: auto;}
+div .star-rating, div #reviews #comments ol.commentlist li .comment-text .star-rating {float: left;}
+.widget_product_categories li a {padding: 0 9px 0 0px; background: transparent url("rtlimages/bullet_grey.png") right center no-repeat}
+
+
+
+
+/*mega menu styles*/
+
+
+
+
+#header .avia_mega_div{ /* use similar styles to .main_menu .menu ul */
+right: 0 !important;
+left: auto !important;
+
+}
+
+#header .avia_mega_div .units{
+padding:0 15px 0 14px;
+
+}
+
+
+
+#top #header .avia_mega_div ul, #top #header .avia_mega_div li{ /*reset list styles for mega menus*/
+
+right:auto;
+}
+
+
+#top #header .avia_mega_div .sub-menu{
+
+right:0;
+left: auto;
+}
+
+#header .avia_mega_div .units{
+
+border-left-style:dotted;
+border-left-width:1px;
+border-right-width: 0;
+
+}
+
+.avia_mega_div .avia-bullet
+{margin-top: 11px; 
+right: 3px;
+left: auto;}
+
+
+blockquote {
+
+  border-right-style:solid;
+  border-left-style:none;
+  border-right-width:7px;
+  border-left-width:0;
+  padding-right:20px;
+  padding-left: 0;
+  margin-left:1em;
+  margin-right: auto;
+}
+
+.avia_message_box_content 
+{
+  margin-top: 18px;
+}
+
+.avia-button-right {float: left;}
+
+.avia_header .avia_style_wrap
+{left: 20px; right: auto;}
+.avia_sidebar_active .avia_shop_option_link {right: 19px; left: auto; text-align: right;}
+
+.avia_ajax_form .form_element_half 
+{float: right;
+margin-left:1%;
+margin-right:auto;}
+
+.avia_ajax_form .form_element_half_2
+{margin-left: 0;
+margin-right: auto;}
+
+.av_dropcap1 {
+  float: right;
+  margin: 4px 0px 0 8px;
+}
+
+#top .product_column_4 .products .product
+{ margin: 0 0 1% 1%}
+
+th , td{
+border-left-style:solid; border-left-width: 1px; border-color: #e1e1e1;}
+
+#top #searchsubmit, .ajax_load {height: 49px}
+
+.avia-button.avia-size-medium {
+min-width : 100px
+}
+
+.cart_dropdown.visible_cart
+{
+right: 1px;
+}
+
+.av_secondary_left .sub_menu>ul>li:first-child {
+padding-right: 0;
+padding-left: 6px;
+}
+
+.av_secondary_left .sub_menu>ul>li:last-child, .av_secondary_left .sub_menu>div>ul>li:last-child {padding-left: 0 ; padding-right: 6px;}
+
+.av_secondary_right .sub_menu>ul>li:last-child, .av_secondary_right .sub_menu>div>ul>li:last-child {padding-right: 7px;}
+
+.av-magazine-thumbnail {float: right; margin-right :auto; margin-left:15px}
+#top .av-masonry-entry .onsale {top : -40px}
+#mobile-advanced li > a:before, .html_header_mobile_behavior #mobile-advanced span > a:before, #mobile-advanced .mega_menu_title:before {margin-left: auto;  margin-right:-10px; content: "\25c0";}
+.av-magazine .av-magazine-sideshow.av_one_half {margin-right: 3%; padding-right : 3%; padding-left:0; margin-left:auto; border-left-width:0 ; border-right-width: 1px; border-left-style: none; border-right-style: solid}
+
+
+.av-tt-hotspot, .mfp-title{text-align: right; }
+ 
+.mfp-counter {left:0; right:auto;}
+.avia-button .avia_button_icon.avia_button_icon_right {right: 0.3em; left: auto;}
+.iconbox_left .iconbox_icon {right: -5px; left: auto;}
+.html_header_left #main {margin-right: 300px; margin-left: auto}
+#commentform label {left: -37px; right: auto;}
+#socket .social_bookmarks {float: left;}
+#top .av-subnav-menu > li > a 
+{
+  border-left-style: none;
+  border-right-style: solid;
+  border-left-width : 0px;
+  border-right-width: 1px;
+}
+
+#top .av-subnav-menu > li ul {right: 0; left: auto; text-align: right;}
+#top .av-subnav-menu > li ul ul {right: 198px; left: auto;}
+.av-catalogue-image {float: right; margin-right: auto; margin-left: 15px;}
+.av-catalogue-content {padding-left: 60px; padding-right: 0}
+.av-catalogue-price {left: 0; right: auto;}
+.av-catalogue-title {padding-left: 60px; padding-right: 0}
+#top .sub_menu li ul {right: -50%; left: auto;}
+#top .sub_menu li li ul {right: -169px; left: auto;}
+.html_header_sidebar #top #header .social_bookmarks li a
+{border-right-style: solid; border-right-width: 1px; border-left-style: none;}
+#top .single-product-main-image .onsale {top:-47px;}
+.reset_variations {left: 0; right: auto;}
+.template-page .big-preview {padding:0 131px 10px 0}
+#top .fullsize .template-blog .post .entry-content-wrapper, blockquote {font-size: 13px}
+div.product .woocommerce-tabs ul.tabs li {margin-left:-1px; margin-right: auto}
+.iconbox .iconbox_content .iconbox_content_title {line-height:22px}
+
+/* 
+   ////// Manually edited /////////
+Edited Lines are here...
+
+
+avia-builder.css
+
+Line 616 
+
+.avia_layout_column, .avia_layout_section, .avia-highlight{
+float:right;
+}
+
+
+avida_admin.css
+
+76:
+.avia_header .avia_style_wrap{
+position: absolute;
+bottom: 20px;
+right:20px;
+}
+
+96
+.avia_sidebar_active .avia_shop_option_link{
+right: 19px;
+background: none;
+border:none;
+padding:0;
+width:auto;
+text-align: right;
+}
+
+
+
+
+*/
+
+
+
+body {direction: rtl;unicode-bidi: embed;}
+#top .main_menu .menu li{float:right;}
+#top .main_menu .menu > li:last-child > a{padding-left: 0 !important;padding-right: 13px !important;}
+#top .main_menu .menu li ul a{float: right;text-align: right;}
+.main_menu .menu ul{right:0;left:auto;margin-right:0;margin-left:auto;}
+#top .main_menu .menu li ul ul{right: 207px;left: auto;}
+#top #header .avia_mega_div .sub-menu{right:0;left:auto;}
+#header .avia_mega_div .units{ border-left-style: dotted;border-left-width: 1px;border-right-style: none;border-right-width: 0;}
+#header .avia_mega_div .avia_mega_menu_columns_first{padding-right:0;padding-left:15px;}
+.avia_mega_div .avia-bullet{right:3px;left:auto;}
+.avia-bullet{right:-3px;left:auto;border-right: 3px solid;border-left: 0 none;}
+#socket .sub_menu_socket li{float:right; border-right-style: solid; border-right-width: 1px;border-left:none;}
+#socket .sub_menu_socket li:last-child{padding-right: 10px;}
+#socket .sub_menu_socket li:first-child{padding-right: 0;}
+.iconbox_icon{float: right;margin: 2px 0 0 10px;}
+#header .avia_mega_div .avia_mega_menu_columns_last{ border-left-style: none;border-left-width: 0;padding-right: 14px;padding-left:0;}
+.avia-button .avia_button_icon{right: -0.3em;left:auto;}
+.avia-testimonial-image{float: right;margin: 0 0 0 20px;}
+.avia-testimonial{border-left-style: dashed; border-left-width: 1px;border-right:none;}
+.avia-testimonial.avia-last-testimonial, .avia-grid-1-testimonials .avia-testimonial{border-left:none;}
+#top .avia-slideshow-arrows a.prev-slide  {left:0;}
+#top .avia-slideshow-arrows a.next-slide{right:auto;}  
+.avia-promocontent{margin-left: 200px;margin-right: auto;}
+.av_promobox .avia-button{left:30px;right:auto;}
+.avia-progress-bar .progressbar-title-wrap{right:3px;left:auto;}
+.progressbar-icon{float: right; margin-left: 5px;margin-right:auto;}
+.progressbar-title{float: right;}
+.avia-progress-bar div.progress .bar-outer, .avia-progress-bar div.progress .bar{right:0;left:auto;}
+.avia_ajax_form .form_element_half{float: right;margin-right: 1%;margin-left:auto;}
+.avia_ajax_form .form_element_third{float:right; margin-right: 1%;margin-left:auto; clear:none;}
+.avia_ajax_form .form_element_two_third{float:right; margin-right: 1%;margin-left:auto; clear:none;}
+.avia_ajax_form .form_element_fourth{float:right; margin-right: 1%;margin-left:auto; clear:none;}
+.avia_ajax_form .form_element_three_fourth{float:right; margin-right: 1%;margin-left:auto; clear:none;}
+.avia_ajax_form .first_form{clear:both;margin-right:0;}
+.avia_ajax_form p{float:right;}
+.avia-slider-testimonials .avia-testimonial-arrow-wrap{right: 14px;left:auto;}
+.avia-slider-testimonials .avia-testimonial-meta .avia-testimonial-image{margin: 0 0 0 10px;}
+#js_sort_items a,#js_sort_items .text-sep{float:right;}
+.avia-caption{right:17px;left:auto;}
+.avia-testimonial-meta{margin-left:auto;margin-right:100px;}
+.special-heading-inner-border{margin-right: 15px;margin-left:auto;}
+#top .onsale{left: 8px;right: auto;}
+#top .product_on_sale .inner_product_header{padding-left: 47px;padding-right:15px;}
+#top .avia_cart_buttons .button{float:right;}
+.toggle_icon{right: 10px;left:auto;}
+.js_active .toggler{padding: 9px 35px 9px 3px;}
+.title_container .breadcrumb{left:0;right:auto;}
+.breadcrumb-trail .trail-before, .breadcrumb-trail .trail-end, .breadcrumb-trail .sep, .breadcrumb-trail a, .breadcrumb-trail .bbp-breadcrumb-current{float:right;}
+#top .widget ul{float:right;}
+ul{margin-right: 7px;margin-left:auto;}
+.widget_nav_menu ul:first-child > .current-menu-item, .widget_nav_menu ul:first-child > .current_page_item, .widget_nav_menu ul:first-child > .current-menu-ancestor{right: 0;left:auto;}
+.widget_nav_menu ul:first-child > .current-menu-item > a, .widget_nav_menu ul:first-child > .current_page_item > a{padding: 6px 3px 7px 7px;}
+.avia-slideshow-dots a{ padding: 6px;}
+.avia-post-next.with-image{text-align: left;}
+#top .avia-gallery .avia-gallery-thumb a{float:right;}
+.js_active .tab{float:right;margin: 0 0 0 -1px;}
+ol{margin-right: 15px;margin-left: auto;}
+.entry-content-wrapper li{margin-right: 1em;margin-left: auto;} 
+blockquote{margin-left: 1em;margin-right:auto; padding-right: 20px;padding-left:0;border-right-style: solid; border-right-width: 7px;border-left-style: none;border-left-width: 0;}
+.more-link .more-link-arrow {display:none;}
+th{text-align: right;}
+a.pp_close,a.pp_arrow_previous, a.pp_arrow_next,.pp_nav .pp_play, .pp_nav .pp_pause,a.pp_expand, a.pp_contract,a.pp_next,a.pp_previous{text-indent: 10000px;}
+div.pp_default .pp_content_container .pp_right{padding-right: 20px;}
+a.pp_close{top: -5px;}
+tr td:last-child{border-left-style: solid;border-left-width: 1px;}
+tr:first-child th{border-left-style: solid;border-left-width: 1px;}
+.av_dropcap1,.av_dropcap2{float: right;margin: 4px 0 0 8px;}
+.pricing-table > li{margin:0;}
+.tabcontainer .tab_icon{margin-left: 7px;margin-right: auto;}
+div .avia_message_box .avia_message_box_title{right:0;left:auto;}
+#top select, #top .avia_ajax_form .select, #top .entry-content-wrapper select{background-position: 12px center;}
+.gravatar{float:right;}
+.comment_content{padding: 0 0 15px 35px;margin: 0 85px 0 0;}
+code{direction: ltr;}
+.children .comment_content{margin: 0 28px 0 0;}
+#top .commentlist .comment.depth-1,#top .commentlist .comment > div{float:right;}
+.says{right: -70px;left:auto;}
+#top .commentlist ul{margin: 0 74px 0 0;}
+.commentlist ul{border-right-style: dashed; border-right-width: 1px;border-left-style: none;border-left-width: 0;}
+ul ul, ul ol, ol ol, ol ul{margin: 4px 30px 5px 0;}
+.children .gravatar{right: -24px;left:auto;}
+#top .commentlist .children ul{margin: 0 47px 0 0;}
+#commentform label{right: 245px;left:auto;}
+.sort-param ul a{ padding-right: 6px;padding-left:0;}
+div .product-sorting{float:right;}
+div .product-sorting ul, div .product-sorting li{margin: 0 0 0 2px;}
+.sort-param-order{margin-left: 3px;margin-right: auto;}
+.sort-param{float:right;margin: 0 0 13px 13px;}
+.sort-param ul{right: 0;left:auto;min-width: 160px;}
+.sort-param ul li{margin-right: 10px;margin-left: auto;}
+.sort-param-count ul{min-width: 172px;}
+#top .pagination .current, #top .pagination a, #top .fullsize .template-blog .pagination a{float: right;margin-left: 3px;margin-right: auto;}
+.pagination .pagination-meta{float:left;}
+.extra-mini-title{margin-right:50px;}
+.news-thumb{float: right;margin-left: 9px;margin-right:auto;}
+.tagcloud a{float: right;margin: 0 0 1px 1px;}
+.sub_menu li{float: right; border-left-style: solid;border-left-width: 1px; border-right-style: none; border-right-width: 0;}
+.sub_menu > ul > li:last-child, .sub_menu > div > ul > li:last-child{ padding-left: 0; padding-right: 10px;}
+.sub_menu > ul > li:first-child, .sub_menu > div > ul > li:first-child{padding-right:0;}
+#top .sub_menu li li a{text-align:right;}
+#header_main_alternate .avia_mega_div{right:0;left:auto;}
+.page-heading-container .author_description{padding-right: 10px;}
+.sidebar_left .inner_sidebar{ margin-right: 30px;}
+.avia_partner_widget a, .avia_partner_widget a:hover{float:right;}
+.widget_product_categories li a{background: url("../config-woocommerce/images/rtl-bullet_grey.png") no-repeat scroll right center transparent;padding: 0 9px 0 0;}
+div .widget_shopping_cart .button.checkout{float:left;}
+div .widget_price_filter .price_slider_wrapper .price_label{float:left;}
+.sidebar_left .widget_nav_menu ul:first-child > .current-menu-item, .sidebar_left .widget_nav_menu ul:first-child > .current_page_item, .sidebar_left .widget_nav_menu ul:first-child > .current-menu-ancestor{padding-left: 49px; padding-right: 3px;}
+.template-blog .pagination{padding: 1px 24px 10px 50px;}
+ul.products{padding-right: 0;margin-right: 0;margin-left: auto;}
+.shop_columns_3 .products .product{margin: 0 0 1% 1%;}
+div .products .product{float: right;margin: 0 0 1% 1%;}
+ul.products li{float: right;margin: 0 0 20px 3.8%;}
+#top .products .product.last, #top #main .products .product.last{margin-left: 0;margin-right: auto;}
+ul.products li.last{margin-left: 0;margin-right: auto;}
+#top #wrap_all ins:before{content: " ";}
+.shop_columns_5 .products .product{margin: 0 0 1% 1%;}
+div.product .woocommerce-tabs ul.tabs li,#top div.product .woocommerce-tabs ul.tabs a{float:right;}
+#top .woocommerce-tabs .tabs li a{float:right;margin: 0 0 0 -1px;}
+div .star-rating, div #reviews #comments ol.commentlist li .comment-text .star-rating{float:left;}
+div #reviews .star-rating{margin: 0 0 0 13px;}
+#top #reviews h2,.bbp-topics .bbp-body .super-sticky.status-closed .bbp-topic-title:before,.bbp-topics .bbp-body .sticky.status-closed .bbp-topic-title:before,th,.template-page .entry-content-wrapper h1, .template-page .entry-content-wrapper h2,.widgettitle,.miniheading, .author_name, #reply-title, #top .logged-in-as, .dynamic-column-title,.iconbox .iconbox_content .iconbox_content_title ,.pricing-table li.avia-pricing-row small,#top .av-masonry-load-more{letter-spacing: 0;}
+#top #commentform .comment-form-rating label, #top.logged-in div #commentform .comment-form-comment label{right:auto;}
+div #reviews #comments ol.commentlist li .avatar{float: right; right: 0;left:auto;}
+#top .product_column_4 .products .product{margin: 0 0 1% 1%;}
+#top .single-product-main-image .thumbnails a{float: right;margin: 0 0 4px 4px;}
+div.product div.images div.thumbnails a{float: right;margin-left: 3.8%;margin-right: auto;}
+.dropdown_widget ul.cart_list li a img{float:left;margin: 0 10px 0 0;}
+div ul.product_list_widget li img,ul.cart_list li img, ul.product_list_widget li img{float: left; margin-right: 4px; margin-left: auto;}
+ul.cart_list li img, ul.product_list_widget li img{float: right;margin-left: 4px;margin-right: auto;}
+.cart_dropdown .dropdown_widget .widget_shopping_cart_content{text-align: right;}
+#top .dropdown_widget .buttons .button{float:right;}
+.woocommerce-page .button{float:right;margin: 4px 0 0 2px;}
+#top .dropdown_widget .buttons .button.checkout{float:left;}
+div a.remove{text-indent: 9999px;}
+table.shop_table{text-align: right;}
+.cart-collaterals h2{text-align: right;}
+.col2-set .col-1{float: right;}
+.col2-set .col-2{float: left;}
+.checkout .col-2 h3{float:right;}
+#top #shiptobilling{float: left;}
+#top .form-row .input-checkbox{ margin: -2px 0 0 8px;}
+#customer_details #order_comments_field{clear: right;}
+#customer_details .form-row{clear: left;}
+.form-row-first, .form-row-last{float: right;}
+.form-row-last{float: left;}
+#top #payment ul.payment_methods li{text-align:right;}
+#top #payment div.payment_box{right: -2px;left:auto;}
+ul.woocommerce-error{padding: 32px 26px 32px 45%;}
+#top .order_details li{float: right;margin: 0 0 7px 2em;padding: 0 0 0 2em;border-left: 1px dotted #CCCCCC;border-right: none;}
+.order_details li{float: right;border-left: 1px dashed #CCCCCC;border-right: none;margin-left: 2em;margin-right: auto;padding-left: 2em;padding-right: 0;}
+.addresses .title h3,dt, dd{float:right;}
+.avia_message_box_icon{right: -0.5em;left: auto;float: right;}
+.avia_message_box.avia-size-normal{padding: 30px 17px 20px;}
+.sidebar_tab_left .active_tab.tab,.sidebar_tab_right .active_tab.tab{width: 100%;}
+#top .avia-content-slider-element-container .avia-slideshow-dots{text-align: left;}
+.mejs-container{text-align: right;}
+.avia_cart_buttons{padding: 10px 5px;}
+#top .social_widget_icon{float:right;}
+.avia_socialcount strong, .avia_socialcount span{padding: 0 36px 0 0;}
+.avia_socialcount{text-align: right;}
+.recentcomments a, .widget_recent_entries li a,table caption{font-style: normal;}
+body .av-special-heading .av-special-heading-tag{float:right;}
+body .av-special-heading.blockquote > * {float: none;}
+#socket .copyright {float: right;}
+#socket .sub_menu_socket {float: left;}
+#top .social_bookmarks li{float: right;}
+#top .avia_ajax_form input[type="checkbox"]{float: right;}
+#advanced_menu_toggle, #advanced_menu_hide{right:auto; left:0; }
+#mobile-advanced li > a:before, .html_header_mobile_behavior #mobile-advanced span > a:before, #mobile-advanced .mega_menu_title:before{left:0; margin-left: 10px;}
+
+.rtl .title_container .breadcrumb { left: 45px; }
+.rtl .avia-menu.av_menu_icon_beside { border-right: none; border-left: solid 1px #e2e2e2;
+margin-left: 25px; padding-left: 25px; margin-right: 0; padding-right: 0; }
+.avia-slideshow-controls.avia-slideshow-dots { direction: initial;}
+.rtl img.aviaccordion-image {
+left: 0;
+}
+.rtl .aviaccordion-preview {
+left: 0!important;
+}
+
+.rtl .post-meta-infos time {
+    float: right;
+}
+
+.avia_transform .rtl .border-extra-arrow-down { left: auto; right: 50%; }
+
+
+
+
+#top .avia-button-fullwidth .av-button-description-below p:last-child, .template-page .entry-content h1, .template-page .entry-content h2, .template-page .template-blog .entry-content h1, .template-page .template-blog .entry-content h2, .widgettitle, .avia_socialcount a strong, .miniheading, .author_name, #reply-title, #top .logged-in-as, .dynamic-column-title, #comments span, .minitext, .form-allowed-tags, #reply-title small, #commentform label, .current_page_item>a, .current-menu-item>a, .main_menu ul:first-child > li.current-menu-item > a, .main_menu ul:first-child > li.current_page_item > a, .current_page_item>a,  .current-menu-item>a, #top h1 a, #top h2 a, #top h3 a, #top h4 a, #top h5 a, #top h6 a, th, strong, b, h1, h2, h3, h4, h5, h6, .iconbox .iconbox_content .iconbox_content_title, body div .avia-button, .avia_message_box_content p, .news-headline, #top label,.main_menu ul:first-child > li > a, .ajax_search_title, #socket .sub_menu_socket li, div .main_color .tabcontainer .active_tab_content, div .main_color .tabcontainer .active_tab{ font-weight: normal; letter-spacing: normal;}
+ 
+ 
+.cart-collaterals .shipping_calculator, .title_container .main-title, #top div .dropdown_widget_cart, .cart_dropdown .dropdown_widget .widget_shopping_cart_content, #top .dropdown_widget .total, .cart_dropdown .dropdown_widget .widget_shopping_cart_content p, #top .dropdown_widget .buttons .button, .avia_cart_buttons, #top .avia_cart_buttons .button, #top div div.woocommerce-message a.button, #top div.woocommerce-message, form.cart .button, .cart-collaterals .shipping_calculator .button, table.shop_table tfoot td, table.shop_table th, #top #payment #place_order, #top .woocommerce-info, .woocommerce-page .button, body .container_wrap .avia-builder-el-last, .comment-edit-link, #cancel-comment-reply-link , #top #commentform p, .av-masonry-entry, #top .main_menu .menu li ul a, blockquote, .av-sort-by-term > *, #top .avia-slideshow-button, #top .av-masonry-load-more, .avia_ajax_form .button, .dropdown_widget ul.cart_list li a, .pricing-table li.avia-pricing-row, .social_header .phone-info, .av_dropcap1, .av-subheading p:last-child, #top .main_menu .menu li , #top h1 a, #top h2 a, #top h3 a, #top h4 a, #top h5 a, #top h6 a, .title_container .breadcrumb, .avia-content-slider .slide-meta, .sort_width_container, #js_sort_items, .flex_column .widget .widgettitle, .content .widget .widgettitle, .recentcomments a, .widget_recent_entries li a, #top .widget ul, h1,h2,h3,h4,h5,h6, .team-member-job-title, .progressbar-title, .main_color table caption, .main_color tr:nth-child(even), .main_color .pricing-table>li:nth-child(even), .avia-data-table .avia-heading-row .avia-desc-col, tr:first-child th, tr:first-child td, .avia-testimonial-name, .avia-testimonial-subtitle, .avia-testimonial-meta-mini, #top .fullsize .template-blog .post-meta-infos, .more-link, .pagination .pagination-meta, #top .pagination .current, #top .pagination a, #top .fullsize .template-blog .pagination a, table, body div .avia-button, div .avia_message_box .avia_message_box_title,.avia_message_box_content p, .js_active .top_tab .tab, .js_active .tab_titles .tab:last-child, .js_active .tab_titles .tab:first-child, .togglecontainer .single_toggle:first-child .toggler, .togglecontainer .taglist + .single_toggle .toggler, .togglecontainer > div:last-of-type .toggler, .avia-promocontent p, #top label, #top .main_color .input-text, #top .main_color input[type='text'], #top .main_color input[type='input'], #top .main_color input[type='password'], #top .main_color input[type='email'] #top .main_color input[type='number'], #top .main_color input[type='url'], #top .main_color input[type='tel'], #top .main_color input[type='search'], #top .main_color textarea, #top .main_color select, .value_verifier_label, .ajax_form .button, body .av-special-heading.classic-quote > *, .post-meta-infos, #top #s, #socket .copyright, .comment-count, .side-container-comment-inner, .author_name, .comment_title, .commentmetadata, #top .comment-reply-link, #submit, .avia-post-nav .entry-info span, #socket .sub_menu_socket li, #footer .widget, .sidebar_tab_right .active_tab.tab, .sidebar_tab .tab_titles .tab, .cart-collaterals .shipping_calculator, .title_container .main-title, #top div .dropdown_widget_cart, .cart_dropdown .dropdown_widget .widget_shopping_cart_content, #top .dropdown_widget .total, .cart_dropdown .dropdown_widget .widget_shopping_cart_content p, #top .dropdown_widget .buttons .button, .avia_cart_buttons, #top .avia_cart_buttons .button, #top div div.woocommerce-message a.button, #top div.woocommerce-message, form.cart .button, .cart-collaterals .shipping_calculator .button, table.shop_table tfoot td, table.shop_table th, #top #payment #place_order, #top .woocommerce-info, .woocommerce-page .button, body .container_wrap .avia-builder-el-last, .minitext, .avia-team-member .facebook:hover, .team-social-inner, .products .product h3, .products .product h4, .products .product h5, .products .product h6, #top .price, #top .price span, #top del, #top ins, div.product .woocommerce-tabs ul.tabs li, #top .woocommerce-tabs .tabs li.active, #top #reviews h2, .main_color .summary div, div ul.product_list_widget li a, .widget_shopping_cart .total strong, div .widget_shopping_cart .total, div .widget_price_filter .price_slider_wrapper .price_label, .sort-param ul a, .main_color .sort-param > li:hover > span, .main_color .sort-param > li:hover > a, .main_color .sort-param > li:hover ul, .main_color .product-sorting strong, .sort-param > li > span, .author_name, .author_name a, .author_name a:hover, .comment-edit-link, #cancel-comment-reply-link , #top #commentform p, .av-masonry-entry, #top .main_menu .menu li ul a, blockquote, .av-sort-by-term > *, #top .avia-slideshow-button, #top .av-masonry-load-more, .avia_ajax_form .button, .dropdown_widget ul.cart_list li a, .pricing-table li.avia-pricing-row, .social_header .phone-info, .av_dropcap1, .number_prepared .avia-animated-number-title, .avia-animated-number-content p,.av_icon_caption, .av-tt-hotspot, #top .av-default-style .av-countdown-cell-inner, #top .av-subnav-menu > li > a, #top .av-subnav-menu > li ul a, #top .av-catalogue-item, #top .avia-button-fullwidth .av-button-description, #top .avia-button-fullwidth, #top .sub_menu li ul, .sub_menu>ul>li>a, .sub_menu>div>ul>li>a, .phone-info span, #top .av_inherit_color *, .av-countdown-cell, #top .av-current-sort-title,#top table.shop_table .actions .coupon .button,#top table.shop_table .actions .button, #av_product_description h1,#av_product_description *, .av-image-caption-overlay-center, .av-image-caption-overlay-center p:last-child, .av-image-caption-overlay-center p:first-child
+
+
+{ font-family: 'BYekan', Tahoma, Helvetica, sans-serif !important; font-weight: normal !important; letter-spacing: normal !important;}
+
+
+
+strong, b {font-weight: bold !important}

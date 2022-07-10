@@ -1,0 +1,243 @@
+section.about{
+    width: 100%;
+}
+section.about>section.first{
+    width: 100%;
+    position: relative;
+}
+section.about>section.first>img{
+width: 445px;
+height: 670px;
+margin-left: 50px;
+margin-right: 100px;
+position: absolute;
+left:80px;
+}
+section.about>section.first>div.explain{
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    left:650px;
+    top: 150px;
+    background-color: transparent;
+}
+section.about>section.first>div.explain>h1{
+    font-size: 44px;
+    font-family: Poppins-Black;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+section.about>section.first>div.explain>h1>span{
+    color:#207DFF;
+}
+section.about>section.first>div.explain>p{
+    width: 600px;
+    color: #9B9B9B;
+    line-height: 35px;
+    font-size: 20px;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+section.about>section.first>div.explain>a.btn1{
+    display:inline-block;
+    width: 280px;
+    height: 60px;
+    background-color: #207DFF;
+    color: #ffffff;
+    border-radius: 140px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins-Light;
+    text-decoration: none;
+    line-height: 60px;
+    font-weight: bold;
+    box-shadow:  inset 5px 5px 25px blue ;
+    border: none;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+section.about>section.first>div.explain>a.btn2{
+    display:inline-block;
+    width: 180px;
+    height: 60px;
+    background-color: #FE5F55;
+    color: #ffffff;
+    border-radius: 140px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Poppins-Light;
+    text-decoration: none;
+    line-height: 60px;
+    font-weight: bold;
+    box-shadow:  inset 5px 5px 25px orangered ;
+    text-transform: capitalize;
+}
+section.about>section.first>div.explain>a.btn1:hover{
+    background-color: #ffffff;
+    color:#207DFF ;
+    box-shadow: none;
+    border: 2px solid #207DFF;
+    
+}
+section.about>section.first>div.explain>a.btn2:hover{
+    background-color: #ffffff;
+    color:#FE5F55 ;
+    box-shadow: none;
+    border: 2px solid #FE5F55;
+}
+section.about>section.second{
+    width: 100%;
+    position: relative;
+    top: 670px;
+    background-color: #F8F9FA;
+}
+section.about>section.second>div.services{
+    display: inline-block;
+    width: 850px ;
+    height: 600px;
+    position: relative;
+}
+section.about>section.second>div.services>div.emergency{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+section.about>section.second>div.services>div.checkup{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+    position: absolute;
+    top:0;
+    left:450px;
+    padding-top: 50px;
+}
+section.about>section.second>div.services>div.doctors{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+    position: absolute;
+    top:350px;
+    left:0px;
+    padding-left: 50px;
+}
+section.about>section.second>div.services>div.hours{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+    position: absolute;
+    top:350px;
+    left:450px;
+}
+section.about>section.second>div.services>div.hours>h1, section.about>section.second>div.services>div.emergency>h1, section.about>section.second>div.services>div.checkup>h1, section.about>section.second>div.services>div.doctors>h1{
+    display: inline-block;
+    width: 60%;
+    font-size: 20px;
+    font-family: Poppins-Light;
+    font-weight: bold;
+    background-color: transparent;
+
+}
+section.about>section.second>div.services>div.hours>p, section.about>section.second>div.services>div.emergency>p, section.about>section.second>div.services>div.checkup>p, section.about>section.second>div.services>div.doctors>p{
+    width: 60%;
+    font-size: 18px;
+    font-family: Poppins-Light;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: #B2B2B3;
+    margin-left: 90px;
+}
+section.about>section.second>div.services>div.hours>i, section.about>section.second>div.services>div.emergency>i, section.about>section.second>div.services>div.checkup>i, section.about>section.second>div.services>div.doctors>i{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: #FE7A72;
+    border-radius: 100%;
+    font-size: 30px;
+    border: none ;
+    text-align: center;
+    line-height: 60px;
+    margin-right: 10px;
+    background-color: #FFEEED;
+}
+section.about>section.second>div.services>div.hours>i:hover, section.about>section.second>div.services>div.emergency>i:hover, section.about>section.second>div.services>div.checkup>i:hover, section.about>section.second>div.services>div.doctors>i:hover{
+    background-color: #FE7A72;
+    color: #FFEEED;
+    width: 65px;
+    height: 65px;
+    font-size: 35px;
+}
+section.about>section.second>div.form1{
+    position: absolute;
+    top: 0;
+    left: 900px;
+    width: 300px;
+    background-color: #FE7A72;
+    height: 620px;
+}
+section.about>section.second>div.form1>form{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 350px;
+    background-color: white;
+    height: 620px;
+}
+section.about>section.second>div.form1>form>input[type="text"], section.about>section.second>div.form1>form>input[type="Date"],section.about>section.second>div.form1>form>input[type="tel"],section.about>section.second>div.form1>form>select, section.about>section.second>div.form1>form>textarea{
+    display: block;
+    width: 280px;
+    height: 60px;
+    border: 1px solid #C0C0C0;
+    outline: none;
+    border-radius: 40px;
+    font-family: Poppins-Light;
+    margin-bottom: 10px;
+    color: #1b1b1b;
+    padding-left: 10px;
+    box-sizing: border-box;
+    line-height: 60px;
+    margin: 20px auto;    
+    transition: all 300ms linear 500ms;
+}
+section.about>section.second>div.form1>form>select>option[value="select your services"],section.about>section.second>div.form1>form>select>option[value="Neurology"],section.about>section.second>div.form1>form>select>option[value="Cardiology"],section.about>section.second>div.form1>form>select>option[value="Dental"],section.about>section.second>div.form1>form>select>option[value="Ophthalmology"],section.about>section.second>div.form1>form>select>option[value="other services"]{
+    font-size: 16px;
+    font-family: Poppins-Light;
+    color: #1b1b1b;
+    background-color: rgb(200, 200, 221);
+}
+section.about>section.second>div.form1>form>input[type="text"]:focus, section.about>section.second>div.form1>form>input[type="Date"]:focus,section.about>section.second>div.form1>form>input[type="tel"]:focus,section.about>section.second>div.form1>form>select:focus, section.about>section.second>div.form1>form>textarea:focus{
+    background-color: rgba(32, 125, 255,0.5);
+    width: 320px;
+    text-shadow: 5px 5px 8px white;
+}
+section.about>section.second>div.form1>form>input[type="text"]::placeholder, section.about>section.second>div.form1>form>input[type="Date"]::placeholder,section.about>section.second>div.form1>form>input[type="tel"]::placeholder,section.about>section.second>div.form1>form>select::placeholder, section.about>section.second>div.form1>form>textarea::placeholder{
+    font-size: 14px;
+    color: #1b1b1b;
+    text-transform: capitalize;   
+}
+section.about>section.second>div.form1>form>input[type="submit"]{
+    display: block;
+    width: 280px;
+    height: 70px;
+    background-color: #FE5F55;
+    font-family: Poppins-Light;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    margin: 30px auto;
+    letter-spacing: 1px;
+}

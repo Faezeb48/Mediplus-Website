@@ -1,0 +1,8 @@
+section.parallax{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, rgba(56, 93, 214, 0.3), rgba(60, 70, 211, 0.5),rgba(71, 46, 160, 0.7),rgba(54, 234, 247, 0.9)),url('../images/parallax1.webp') center center no-repeat fixed;
+    background-size: cover;
+    top: 1000px;
+}
